@@ -1,0 +1,10 @@
+{
+  "fragment_id": 339,
+  "category": "板块异动详情",
+  "api_name": "stock_board_change_em",
+  "description": "东方财富-行情中心-当日板块异动详情",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 8
+}

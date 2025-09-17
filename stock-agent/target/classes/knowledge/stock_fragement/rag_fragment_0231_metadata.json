@@ -1,0 +1,10 @@
+{
+  "fragment_id": 231,
+  "category": "基本面数据 > 机构推荐 > 高管持股变动明细",
+  "api_name": "stock_hold_management_detail_cninfo",
+  "description": "巨潮资讯-数据中心-专题统计-股东股本-高管持股变动明细",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 16
+}

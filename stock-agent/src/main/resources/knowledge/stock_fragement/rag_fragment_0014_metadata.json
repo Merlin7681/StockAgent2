@@ -1,0 +1,10 @@
+{
+  "fragment_id": 14,
+  "category": "A股 > 实时行情数据 > 实时行情数据-东财 > 创业板",
+  "api_name": "stock_cy_a_spot_em",
+  "description": "东方财富网-创业板-实时行情",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 23
+}

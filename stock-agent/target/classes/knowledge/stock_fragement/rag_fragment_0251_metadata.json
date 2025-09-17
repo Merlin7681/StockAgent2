@@ -1,0 +1,10 @@
+{
+  "fragment_id": 251,
+  "category": "基本面数据 > 个股估值",
+  "api_name": "stock_value_em",
+  "description": "东方财富网-数据中心-估值分析-每日互动-每日互动-估值分析",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 13
+}

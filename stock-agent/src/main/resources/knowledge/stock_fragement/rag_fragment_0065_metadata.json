@@ -1,0 +1,10 @@
+{
+  "fragment_id": 65,
+  "category": "港股 > 财务指标",
+  "api_name": "stock_hk_financial_indicator_em",
+  "description": "东方财富-港股-核心必读-最新指标",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 21
+}

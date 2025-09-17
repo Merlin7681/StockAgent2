@@ -1,0 +1,10 @@
+{
+  "fragment_id": 164,
+  "category": "基本面数据 > 财务报表-同花顺 > 现金流量表",
+  "api_name": "stock_financial_cash_ths",
+  "description": "同花顺-财务指标-现金流量表",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 1
+}

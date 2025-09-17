@@ -1,0 +1,10 @@
+{
+  "fragment_id": 252,
+  "category": "基本面数据 > 涨跌投票",
+  "api_name": "stock_zh_vote_baidu",
+  "description": "百度股市通- A 股或指数-股评-投票",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 5
+}

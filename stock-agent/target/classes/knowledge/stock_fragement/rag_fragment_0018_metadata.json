@@ -1,0 +1,10 @@
+{
+  "fragment_id": 18,
+  "category": "A股 > 实时行情数据 > 实时行情数据-雪球",
+  "api_name": "stock_individual_spot_xq",
+  "description": "雪球-行情中心-个股",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 2
+}

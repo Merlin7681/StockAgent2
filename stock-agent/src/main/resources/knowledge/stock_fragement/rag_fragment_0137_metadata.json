@@ -1,0 +1,10 @@
+{
+  "fragment_id": 137,
+  "category": "资金流向 > 同花顺 > 概念资金流",
+  "api_name": "stock_fund_flow_concept",
+  "description": "同花顺-数据中心-资金流向-概念资金流",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 20
+}

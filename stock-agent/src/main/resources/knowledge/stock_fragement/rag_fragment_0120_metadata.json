@@ -1,0 +1,10 @@
+{
+  "fragment_id": 120,
+  "category": "年报季报 > 信息披露调研-巨潮资讯",
+  "api_name": "stock_zh_a_disclosure_relation_cninfo",
+  "description": "巨潮资讯-首页-公告查询-信息披露调研-沪深京",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 4,
+  "output_parameters_count": 5
+}

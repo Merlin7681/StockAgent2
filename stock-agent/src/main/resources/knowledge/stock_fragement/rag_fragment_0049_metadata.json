@@ -1,0 +1,10 @@
+{
+  "fragment_id": 49,
+  "category": "美股 > 历史行情数据-东财",
+  "api_name": "stock_us_hist",
+  "description": "东方财富网-行情-美股-每日行情",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 5,
+  "output_parameters_count": 11
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 222,
+  "category": "基本面数据 > 机构推荐 > 行业市盈率",
+  "api_name": "stock_industry_pe_ratio_cninfo",
+  "description": "巨潮资讯-数据中心-行业分析-行业市盈率",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 12
+}

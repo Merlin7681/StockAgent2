@@ -1,0 +1,10 @@
+{
+  "fragment_id": 61,
+  "category": "港股 > 历史行情数据-新浪",
+  "api_name": "stock_hk_daily",
+  "description": "",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 17
+}

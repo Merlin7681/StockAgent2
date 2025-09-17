@@ -1,0 +1,10 @@
+{
+  "fragment_id": 70,
+  "category": "主营构成-东财",
+  "api_name": "stock_zygc_em",
+  "description": "东方财富网-个股-主营构成",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 11
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 211,
+  "category": "基本面数据 > 暂停/终止上市-上证",
+  "api_name": "stock_info_sh_delist",
+  "description": "上海证券交易所暂停/终止上市股票",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 4
+}

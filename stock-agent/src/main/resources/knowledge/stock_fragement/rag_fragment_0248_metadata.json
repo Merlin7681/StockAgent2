@@ -1,0 +1,10 @@
+{
+  "fragment_id": 248,
+  "category": "基本面数据 > 主板市净率",
+  "api_name": "stock_market_pb_lg",
+  "description": "乐咕乐股-主板市净率",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 5
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 20,
+  "category": "A股 > 历史行情数据 > 历史行情数据-新浪",
+  "api_name": "stock_zh_a_daily",
+  "description": "新浪财经-沪深京 A 股的数据, 历史数据按日频率更新; 注意其中的 **sh689009** 为 CDR, 请 通过 **ak.stock_zh_a_cdr_daily** 接口获取",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 4,
+  "output_parameters_count": 9
+}

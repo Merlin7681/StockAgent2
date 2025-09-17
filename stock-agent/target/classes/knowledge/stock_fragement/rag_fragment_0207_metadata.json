@@ -1,0 +1,10 @@
+{
+  "fragment_id": 207,
+  "category": "基本面数据 > 股票列表-深证",
+  "api_name": "stock_info_sz_name_code",
+  "description": "深证证券交易所股票代码和股票简称数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 7
+}

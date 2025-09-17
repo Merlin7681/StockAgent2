@@ -1,0 +1,10 @@
+{
+  "fragment_id": 171,
+  "category": "基本面数据 > 关键指标-同花顺",
+  "api_name": "stock_financial_abstract_ths",
+  "description": "同花顺-财务指标-主要指标",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 25
+}

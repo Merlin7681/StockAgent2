@@ -1,0 +1,10 @@
+{
+  "fragment_id": 144,
+  "category": "资金流向 > 东方财富 > 主力净流入排名",
+  "api_name": "stock_main_fund_flow",
+  "description": "东方财富网-数据中心-资金流向-主力净流入排名",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 14
+}

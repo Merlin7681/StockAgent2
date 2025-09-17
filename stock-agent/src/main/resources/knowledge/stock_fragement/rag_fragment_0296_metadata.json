@@ -1,0 +1,10 @@
+{
+  "fragment_id": 296,
+  "category": "融资融券 > 上海证券交易所 > 融资融券汇总",
+  "api_name": "stock_margin_sse",
+  "description": "上海证券交易所-融资融券数据-融资融券汇总数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 7
+}

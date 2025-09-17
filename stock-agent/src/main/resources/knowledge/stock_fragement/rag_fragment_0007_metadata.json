@@ -1,0 +1,10 @@
+{
+  "fragment_id": 7,
+  "category": "A股 > 个股信息查询-雪球",
+  "api_name": "stock_individual_basic_info_xq",
+  "description": "雪球财经-个股-公司概况-公司简介",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 2
+}

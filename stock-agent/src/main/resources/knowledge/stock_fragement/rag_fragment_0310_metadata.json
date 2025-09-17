@@ -1,0 +1,10 @@
+{
+  "fragment_id": 310,
+  "category": "概念板块 > 东方财富-指数-分时",
+  "api_name": "stock_board_concept_hist_min_em",
+  "description": "东方财富-沪深板块-概念板块-分时历史行情数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 20
+}

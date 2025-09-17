@@ -1,0 +1,10 @@
+{
+  "fragment_id": 48,
+  "category": "美股 > 实时行情数据-新浪",
+  "api_name": "stock_us_spot",
+  "description": "新浪财经-美股; 获取的数据有 15 分钟延迟; 建议使用 ak.stock_us_spot_em() 来获取数据",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 1
+}

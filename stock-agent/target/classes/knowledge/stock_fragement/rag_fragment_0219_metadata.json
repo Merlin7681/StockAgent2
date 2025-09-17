@@ -1,0 +1,10 @@
+{
+  "fragment_id": 219,
+  "category": "基本面数据 > 机构推荐 > 股票评级记录",
+  "api_name": "stock_institute_recommend_detail",
+  "description": "新浪财经-机构推荐池-股票评级记录",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 8
+}

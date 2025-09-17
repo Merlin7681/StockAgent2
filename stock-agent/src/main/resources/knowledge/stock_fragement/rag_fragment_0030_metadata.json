@@ -1,0 +1,10 @@
+{
+  "fragment_id": 30,
+  "category": "B股 > 实时行情数据 > 实时行情数据-新浪",
+  "api_name": "stock_zh_b_spot",
+  "description": "B 股数据是从新浪财经获取的数据, 重复运行本函数会被新浪暂时封 IP, 建议增加时间间隔",
+  "has_input_parameters": false,
+  "has_output_parameters": false,
+  "input_parameters_count": 0,
+  "output_parameters_count": 0
+}

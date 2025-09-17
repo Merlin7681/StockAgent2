@@ -1,0 +1,10 @@
+{
+  "fragment_id": 258,
+  "category": "基本面数据 > 基金持股明细",
+  "api_name": "stock_report_fund_hold_detail",
+  "description": "东方财富网-数据中心-主力数据-基金持仓-基金持仓明细表",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 7
+}

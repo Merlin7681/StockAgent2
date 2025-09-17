@@ -1,0 +1,10 @@
+{
+  "fragment_id": 6,
+  "category": "A股 > 个股信息查询-东财",
+  "api_name": "stock_individual_info_em",
+  "description": "东方财富-个股-股票信息",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 2
+}

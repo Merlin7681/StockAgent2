@@ -1,0 +1,10 @@
+{
+  "fragment_id": 86,
+  "category": "千股千评详情 > 主力控盘 > 机构参与度",
+  "api_name": "stock_comment_detail_zlkp_jgcyd_em",
+  "description": "东方财富网-数据中心-特色数据-千股千评-主力控盘-机构参与度",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 2
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 308,
+  "category": "概念板块 > 东方财富-成份股",
+  "api_name": "stock_board_concept_cons_em",
+  "description": "东方财富-沪深板块-概念板块-板块成份",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 16
+}

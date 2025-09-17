@@ -1,0 +1,10 @@
+{
+  "fragment_id": 242,
+  "category": "基本面数据 > 股债利差",
+  "api_name": "stock_ebs_lg",
+  "description": "乐咕乐股-股债利差",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 4
+}

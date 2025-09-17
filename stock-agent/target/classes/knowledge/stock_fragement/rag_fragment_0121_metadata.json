@@ -1,0 +1,10 @@
+{
+  "fragment_id": 121,
+  "category": "年报季报 > 行业分类数据-巨潮资讯",
+  "api_name": "stock_industry_category_cninfo",
+  "description": "巨潮资讯-数据-行业分类数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 8
+}

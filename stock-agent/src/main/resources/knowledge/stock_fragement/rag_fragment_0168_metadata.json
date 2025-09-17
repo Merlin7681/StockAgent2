@@ -1,0 +1,10 @@
+{
+  "fragment_id": 168,
+  "category": "基本面数据 > 港股财务报表",
+  "api_name": "stock_financial_hk_report_em",
+  "description": "东方财富-港股-财务报表-三大报表",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 11
+}

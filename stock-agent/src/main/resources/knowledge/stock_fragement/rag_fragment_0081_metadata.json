@@ -1,0 +1,10 @@
+{
+  "fragment_id": 81,
+  "category": "商誉专题 > 行业商誉",
+  "api_name": "stock_sy_hy_em",
+  "description": "东方财富网-数据中心-特色数据-商誉-行业商誉",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 6
+}

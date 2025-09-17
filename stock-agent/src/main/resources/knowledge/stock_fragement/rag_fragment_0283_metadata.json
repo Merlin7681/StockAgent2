@@ -1,0 +1,10 @@
+{
+  "fragment_id": 283,
+  "category": "基本面数据 > 增发",
+  "api_name": "stock_qbzf_em",
+  "description": "东方财富网-数据中心-新股数据-增发-全部增发",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 11
+}

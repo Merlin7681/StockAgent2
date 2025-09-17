@@ -1,0 +1,10 @@
+{
+  "fragment_id": 33,
+  "category": "次新股",
+  "api_name": "stock_zh_a_new",
+  "description": "新浪财经-行情中心-沪深股市-次新股",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 10
+}

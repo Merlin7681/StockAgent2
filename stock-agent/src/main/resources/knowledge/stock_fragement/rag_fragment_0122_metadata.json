@@ -1,0 +1,10 @@
+{
+  "fragment_id": 122,
+  "category": "年报季报 > 上市公司行业归属的变动情况-巨潮资讯",
+  "api_name": "stock_industry_change_cninfo",
+  "description": "巨潮资讯-数据-上市公司行业归属的变动情况",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 11
+}

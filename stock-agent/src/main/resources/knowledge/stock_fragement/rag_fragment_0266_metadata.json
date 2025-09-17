@@ -1,0 +1,10 @@
+{
+  "fragment_id": 266,
+  "category": "基本面数据 > 营业部详情数据-东财 > 营业部排行 > 营业部统计",
+  "api_name": "stock_lhb_traderstatistic_em",
+  "description": "东方财富网-数据中心-龙虎榜单-营业部统计",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 8
+}

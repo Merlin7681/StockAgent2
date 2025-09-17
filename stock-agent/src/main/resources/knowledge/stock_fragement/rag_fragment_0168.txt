@@ -1,0 +1,30 @@
+# 基本面数据 > 港股财务报表
+
+## 接口: stock_financial_hk_report_em
+
+### 描述
+东方财富-港股-财务报表-三大报表
+
+### 输入参数
+输入参数
+| 名称        | 类型  | 描述                                                  |
+|-----------|-----|-----------------------------------------------------|
+| stock     | str | stock="00700"; 股票代码                                 |
+| symbol    | str | symbol="现金流量表"; choice of {"资产负债表", "利润表", "现金流量表"} |
+| indicator | str | indicator="年度"; choice of {"年度", "报告期"}             |
+
+### 输出参数
+输出参数
+| 名称                 | 类型      | 描述 |
+|--------------------|---------|----|
+| SECUCODE           | object  | -  |
+| SECURITY_CODE      | object  | -  |
+| SECURITY_NAME_ABBR | object  | -  |
+| ORG_CODE           | object  | -  |
+| REPORT_DATE        | object  | -  |
+| DATE_TYPE_CODE     | object  | -  |
+| FISCAL_YEAR        | object  | -  |
+| STD_ITEM_CODE      | object  | -  |
+| STD_ITEM_NAME      | object  | -  |
+| AMOUNT             | float64 | -  |
+| STD_REPORT_DATE    | object  | -  |

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 205,
+  "category": "基本面数据 > 股票列表-A股",
+  "api_name": "stock_info_a_code_name",
+  "description": "沪深京 A 股股票代码和股票简称数据",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 2
+}

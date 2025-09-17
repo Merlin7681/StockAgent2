@@ -1,0 +1,10 @@
+{
+  "fragment_id": 4,
+  "category": "A股 > 股票市场总貌 > 深圳证券交易所 > 股票行业成交",
+  "api_name": "stock_szse_sector_summary",
+  "description": "深圳证券交易所-统计资料-股票行业成交数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 9
+}

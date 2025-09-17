@@ -1,0 +1,10 @@
+{
+  "fragment_id": 287,
+  "category": "大宗交易 > 市场统计",
+  "api_name": "stock_dzjy_sctj",
+  "description": "东方财富网-数据中心-大宗交易-市场统计",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 9
+}

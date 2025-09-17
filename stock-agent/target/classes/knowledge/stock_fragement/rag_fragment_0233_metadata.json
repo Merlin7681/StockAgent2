@@ -1,0 +1,10 @@
+{
+  "fragment_id": 233,
+  "category": "基本面数据 > 机构推荐 > 人员增减持股变动明细",
+  "api_name": "stock_hold_management_person_em",
+  "description": "东方财富网-数据中心-特色数据-高管持股-人员增减持股变动明细",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 16
+}

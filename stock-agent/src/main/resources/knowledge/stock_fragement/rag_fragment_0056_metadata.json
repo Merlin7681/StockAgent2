@@ -1,0 +1,10 @@
+{
+  "fragment_id": 56,
+  "category": "港股 > 港股主板实时行情数据-东财",
+  "api_name": "stock_hk_main_board_spot_em",
+  "description": "港股主板的实时行情数据; 该数据有 15 分钟延时",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 12
+}

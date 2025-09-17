@@ -1,0 +1,10 @@
+{
+  "fragment_id": 300,
+  "category": "融资融券 > 深圳证券交易所 > 标的证券信息",
+  "api_name": "stock_margin_underlying_info_szse",
+  "description": "深圳证券交易所-融资融券数据-标的证券信息",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 8
+}

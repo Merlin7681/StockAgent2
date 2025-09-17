@@ -1,0 +1,10 @@
+{
+  "fragment_id": 123,
+  "category": "年报季报 > 公司股本变动-巨潮资讯",
+  "api_name": "stock_share_change_cninfo",
+  "description": "巨潮资讯-数据-公司股本变动",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 44
+}

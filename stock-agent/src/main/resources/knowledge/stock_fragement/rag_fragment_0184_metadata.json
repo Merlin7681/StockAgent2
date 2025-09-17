@@ -1,0 +1,10 @@
+{
+  "fragment_id": 184,
+  "category": "基本面数据 > 股东持股分析-十大股东",
+  "api_name": "stock_gdfx_holding_analyse_em",
+  "description": "东方财富网-数据中心-股东分析-股东持股分析-十大股东",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 15
+}

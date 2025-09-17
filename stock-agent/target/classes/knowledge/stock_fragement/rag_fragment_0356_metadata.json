@@ -1,0 +1,10 @@
+{
+  "fragment_id": 356,
+  "category": "ESG 评级 > 路孚特",
+  "api_name": "stock_esg_rft_sina",
+  "description": "新浪财经-ESG评级中心-ESG评级-路孚特",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 13
+}

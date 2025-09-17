@@ -1,0 +1,10 @@
+{
+  "fragment_id": 1,
+  "category": "A股 > 股票市场总貌 > 上海证券交易所",
+  "api_name": "stock_sse_summary",
+  "description": "上海证券交易所-股票数据总貌",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 4
+}

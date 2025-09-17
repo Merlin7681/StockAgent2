@@ -1,0 +1,10 @@
+{
+  "fragment_id": 146,
+  "category": "资金流向 > 东方财富 > 行业历史资金流",
+  "api_name": "stock_sector_fund_flow_hist",
+  "description": "东方财富网-数据中心-资金流向-行业资金流-行业历史资金流",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 11
+}

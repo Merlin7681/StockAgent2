@@ -1,0 +1,10 @@
+{
+  "fragment_id": 135,
+  "category": "分红配送 > 分红配送详情-港股-同花顺",
+  "api_name": "stock_hk_fhpx_detail_ths",
+  "description": "同花顺-港股-分红派息",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 9
+}

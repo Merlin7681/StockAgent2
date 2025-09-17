@@ -1,0 +1,10 @@
+{
+  "fragment_id": 278,
+  "category": "基本面数据 > IPO审核信息 > 全部 > 创业板",
+  "api_name": "stock_register_cyb",
+  "description": "东方财富网-数据中心-新股数据-IPO审核信息-创业板",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 12
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 39,
+  "category": "两网及退市",
+  "api_name": "stock_zh_a_stop_em",
+  "description": "东方财富网-行情中心-沪深个股-两网及退市",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 17
+}

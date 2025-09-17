@@ -1,0 +1,10 @@
+{
+  "fragment_id": 254,
+  "category": "基本面数据 > 港股估值指标",
+  "api_name": "stock_hk_valuation_baidu",
+  "description": "百度股市通-港股-财务报表-估值数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 2
+}

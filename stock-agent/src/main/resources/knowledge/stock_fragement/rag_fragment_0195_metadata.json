@@ -1,0 +1,10 @@
+{
+  "fragment_id": 195,
+  "category": "基本面数据 > 新股发行",
+  "api_name": "stock_ipo_info",
+  "description": "新浪财经-发行与分配-新股发行",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 2
+}

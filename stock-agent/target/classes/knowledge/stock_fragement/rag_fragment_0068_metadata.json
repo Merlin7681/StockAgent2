@@ -1,0 +1,10 @@
+{
+  "fragment_id": 68,
+  "category": "机构调研 > 机构调研-详细",
+  "api_name": "stock_jgdy_detail_em",
+  "description": "东方财富网-数据中心-特色数据-机构调研-机构调研详细",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 13
+}

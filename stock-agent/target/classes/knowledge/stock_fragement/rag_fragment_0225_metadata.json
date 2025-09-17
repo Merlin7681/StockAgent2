@@ -1,0 +1,10 @@
+{
+  "fragment_id": 225,
+  "category": "基本面数据 > 机构推荐 > 董监高及相关人员持股变动-上证",
+  "api_name": "stock_share_hold_change_sse",
+  "description": "上海证券交易所-披露-监管信息公开-公司监管-董董监高人员股份变动",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 13
+}

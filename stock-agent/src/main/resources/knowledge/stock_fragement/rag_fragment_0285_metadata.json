@@ -1,0 +1,10 @@
+{
+  "fragment_id": 285,
+  "category": "基本面数据 > 股票回购数据",
+  "api_name": "stock_repurchase_em",
+  "description": "东方财富网-数据中心-股票回购-股票回购数据",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 18
+}

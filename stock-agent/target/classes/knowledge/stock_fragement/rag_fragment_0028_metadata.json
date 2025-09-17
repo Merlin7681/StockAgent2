@@ -1,0 +1,10 @@
+{
+  "fragment_id": 28,
+  "category": "A股-CDR > 历史行情数据",
+  "api_name": "stock_zh_a_cdr_daily",
+  "description": "上海证券交易所-科创板-CDR",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 6
+}

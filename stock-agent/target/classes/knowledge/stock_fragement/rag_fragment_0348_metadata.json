@@ -1,0 +1,10 @@
+{
+  "fragment_id": 348,
+  "category": "技术指标 > 持续缩量",
+  "api_name": "stock_rank_cxsl_ths",
+  "description": "同花顺-数据中心-技术选股-持续缩量",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 10
+}

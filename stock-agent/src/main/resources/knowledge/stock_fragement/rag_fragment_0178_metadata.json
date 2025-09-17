@@ -1,0 +1,10 @@
+{
+  "fragment_id": 178,
+  "category": "基本面数据 > 十大股东(个股)",
+  "api_name": "stock_gdfx_top_10_em",
+  "description": "东方财富网-个股-十大股东",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 7
+}

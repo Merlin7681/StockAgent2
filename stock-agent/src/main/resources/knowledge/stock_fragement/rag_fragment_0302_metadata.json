@@ -1,0 +1,10 @@
+{
+  "fragment_id": 302,
+  "category": "港股盈利预测-经济通",
+  "api_name": "stock_hk_profit_forecast_et",
+  "description": "经济通-公司资料-盈利预测",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 8
+}

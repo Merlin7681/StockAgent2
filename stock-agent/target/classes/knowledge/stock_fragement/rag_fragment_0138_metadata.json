@@ -1,0 +1,10 @@
+{
+  "fragment_id": 138,
+  "category": "资金流向 > 同花顺 > 行业资金流",
+  "api_name": "stock_fund_flow_industry",
+  "description": "同花顺-数据中心-资金流向-行业资金流",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 20
+}

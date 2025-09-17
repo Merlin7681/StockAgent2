@@ -1,0 +1,10 @@
+{
+  "fragment_id": 76,
+  "category": "股票质押 > 上市公司质押比例",
+  "api_name": "stock_gpzy_industry_data_em",
+  "description": "东方财富网-数据中心-特色数据-股权质押-上市公司质押比例-行业数据",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 7
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 358,
+  "category": "ESG 评级 > 华证指数",
+  "api_name": "stock_esg_hz_sina",
+  "description": "新浪财经-ESG评级中心-ESG评级-华证指数",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 12
+}

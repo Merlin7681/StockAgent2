@@ -1,0 +1,10 @@
+{
+  "fragment_id": 315,
+  "category": "行业板块 > 东方财富-行业板块-实时行情",
+  "api_name": "stock_board_industry_spot_em",
+  "description": "东方财富网-沪深板块-行业板块-实时行情",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 2
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 275,
+  "category": "基本面数据 > 营业部详情数据-东财 > 龙虎榜-机构席位成交明细",
+  "api_name": "stock_lhb_jgmx_sina",
+  "description": "新浪财经-龙虎榜-机构席位成交明细",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 6
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 41,
+  "category": "科创板 > 历史行情数据",
+  "api_name": "stock_zh_kcb_daily",
+  "description": "新浪财经-科创板股票历史行情数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 10
+}

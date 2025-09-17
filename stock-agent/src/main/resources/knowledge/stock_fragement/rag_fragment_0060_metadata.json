@@ -1,0 +1,10 @@
+{
+  "fragment_id": 60,
+  "category": "港股 > 历史行情数据-东财",
+  "api_name": "stock_hk_hist",
+  "description": "港股-历史行情数据, 可以选择返回复权后数据, 更新频率为日频",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 5,
+  "output_parameters_count": 35
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 91,
+  "category": "沪深港通资金流向",
+  "api_name": "stock_hsgt_fund_flow_summary_em",
+  "description": "东方财富网-数据中心-资金流向-沪深港通资金流向",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 13
+}

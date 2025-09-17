@@ -1,0 +1,10 @@
+{
+  "fragment_id": 5,
+  "category": "A股 > 股票市场总貌 > 上海证券交易所-每日概况",
+  "api_name": "stock_sse_deal_daily",
+  "description": "上海证券交易所-数据-股票数据-成交概况-股票成交概况-每日股票情况",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 6
+}

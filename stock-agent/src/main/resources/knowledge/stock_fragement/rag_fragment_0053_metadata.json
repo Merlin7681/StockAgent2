@@ -1,0 +1,10 @@
+{
+  "fragment_id": 53,
+  "category": "美股 > 粉单市场",
+  "api_name": "stock_us_pink_spot_em",
+  "description": "美股粉单市场的实时行情数据",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 12
+}

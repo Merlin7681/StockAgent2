@@ -1,0 +1,10 @@
+{
+  "fragment_id": 216,
+  "category": "基本面数据 > 机构持股 > 机构持股一览表",
+  "api_name": "stock_institute_hold",
+  "description": "新浪财经-机构持股-机构持股一览表",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 8
+}

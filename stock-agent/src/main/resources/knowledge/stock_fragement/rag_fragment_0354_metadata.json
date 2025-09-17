@@ -1,0 +1,10 @@
+{
+  "fragment_id": 354,
+  "category": "ESG 评级 > ESG 评级数据",
+  "api_name": "stock_esg_rate_sina",
+  "description": "新浪财经-ESG评级中心-ESG评级-ESG评级数据",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 6
+}

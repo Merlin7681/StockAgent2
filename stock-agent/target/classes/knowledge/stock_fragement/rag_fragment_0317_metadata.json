@@ -1,0 +1,10 @@
+{
+  "fragment_id": 317,
+  "category": "行业板块 > 东方财富-指数-日频",
+  "api_name": "stock_board_industry_hist_em",
+  "description": "东方财富-沪深板块-行业板块-历史行情数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 5,
+  "output_parameters_count": 11
+}

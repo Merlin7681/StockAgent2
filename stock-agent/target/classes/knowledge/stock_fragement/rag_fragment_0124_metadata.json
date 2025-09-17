@@ -1,0 +1,10 @@
+{
+  "fragment_id": 124,
+  "category": "年报季报 > 配股实施方案-巨潮资讯",
+  "api_name": "stock_allotment_cninfo",
+  "description": "巨潮资讯-个股-配股实施方案",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 57
+}

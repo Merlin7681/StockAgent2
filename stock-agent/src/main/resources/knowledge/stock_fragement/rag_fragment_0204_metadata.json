@@ -1,0 +1,10 @@
+{
+  "fragment_id": 204,
+  "category": "基本面数据 > 板块详情",
+  "api_name": "stock_sector_detail",
+  "description": "新浪行业-板块行情-成份详情, 由于新浪网页提供的统计数据有误, 部分行业数量大于统计数",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 20
+}

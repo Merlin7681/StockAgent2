@@ -1,0 +1,10 @@
+{
+  "fragment_id": 301,
+  "category": "盈利预测-东方财富",
+  "api_name": "stock_profit_forecast_em",
+  "description": "东方财富网-数据中心-研究报告-盈利预测; 该数据源网页端返回数据有异常, 本接口已修复该异常",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 13
+}

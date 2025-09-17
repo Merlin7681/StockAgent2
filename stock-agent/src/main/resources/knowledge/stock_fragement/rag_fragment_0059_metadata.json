@@ -1,0 +1,10 @@
+{
+  "fragment_id": 59,
+  "category": "港股 > 分时数据-东财",
+  "api_name": "stock_hk_hist_min_em",
+  "description": "东方财富网-行情首页-港股-每日分时行情",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 5,
+  "output_parameters_count": 20
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 107,
+  "category": "停复牌",
+  "api_name": "news_trade_notify_suspend_baidu",
+  "description": "百度股市通-交易提醒-停复牌",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 6
+}

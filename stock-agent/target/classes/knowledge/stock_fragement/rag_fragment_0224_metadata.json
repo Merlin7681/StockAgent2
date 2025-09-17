@@ -1,0 +1,10 @@
+{
+  "fragment_id": 224,
+  "category": "基本面数据 > 机构推荐 > 新股发行",
+  "api_name": "stock_new_ipo_cninfo",
+  "description": "巨潮资讯-数据中心-新股数据-新股发行",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 13
+}

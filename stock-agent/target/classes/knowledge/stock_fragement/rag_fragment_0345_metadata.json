@@ -1,0 +1,10 @@
+{
+  "fragment_id": 345,
+  "category": "涨停板行情 > 跌停股池",
+  "api_name": "stock_zt_pool_dtgc_em",
+  "description": "东方财富网-行情中心-涨停板行情-跌停股池",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 16
+}

@@ -1,0 +1,28 @@
+# 科创板 > 历史行情数据
+
+## 接口: stock_zh_kcb_daily
+
+### 描述
+新浪财经-科创板股票历史行情数据
+
+### 输入参数
+输入参数
+| 名称     | 类型  | 描述                                                                                 |
+|--------|-----|------------------------------------------------------------------------------------|
+| symbol | str | symbol="sh688008"; 带市场标识的股票代码                                                      |
+| adjust | str | 默认不复权的数据; qfq: 返回前复权后的数据; hfq: 返回后复权后的数据; hfq-factor: 返回后复权因子; qfq-factor: 返回前复权因子 |
+
+### 输出参数
+输出参数
+| 名称                | 类型      | 描述                                                                                           |
+|-------------------|---------|----------------------------------------------------------------------------------------------|
+| date              | object  | -                                                                                            |
+| close             | float64 | 收盘价                                                                                          |
+| high              | float64 | 最高价                                                                                          |
+| low               | float64 | 最低价                                                                                          |
+| open              | float64 | 开盘价                                                                                          |
+| volume            | float64 | 成交量(股)                                                                                       |
+| after_volume      | float64 | 盘后量; 参见[科创板盘后固定价格交易](http://www.sse.com.cn/lawandrules/sserules/tib/trading/c/4729491.shtml) |
+| after_amount      | float64 | 盘后额; 参见[科创板盘后固定价格交易](http://www.sse.com.cn/lawandrules/sserules/tib/trading/c/4729491.shtml) |
+| outstanding_share | float64 | 流通股本(股)                                                                                      |
+| turnover          | float64 | 换手率=成交量(股)/流通股本(股)                                                                           |

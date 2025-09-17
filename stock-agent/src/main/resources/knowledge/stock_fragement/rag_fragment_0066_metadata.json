@@ -1,0 +1,10 @@
+{
+  "fragment_id": 66,
+  "category": "港股 > 分红派息",
+  "api_name": "stock_hk_dividend_payout_em",
+  "description": "东方财富-港股-核心必读-分红派息",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 7
+}

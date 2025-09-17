@@ -1,0 +1,10 @@
+{
+  "fragment_id": 46,
+  "category": "A+H股 > A+H股票字典",
+  "api_name": "stock_zh_ah_name",
+  "description": "A+H 股数据是从腾讯财经获取的数据, 历史数据按日频率更新",
+  "has_input_parameters": false,
+  "has_output_parameters": true,
+  "input_parameters_count": 0,
+  "output_parameters_count": 2
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_id": 140,
+  "category": "资金流向 > 东方财富 > 个股资金流",
+  "api_name": "stock_individual_fund_flow",
+  "description": "东方财富网-数据中心-个股资金流向",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 2,
+  "output_parameters_count": 13
+}

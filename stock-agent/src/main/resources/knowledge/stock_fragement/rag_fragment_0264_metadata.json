@@ -1,0 +1,10 @@
+{
+  "fragment_id": 264,
+  "category": "基本面数据 > 营业部详情数据-东财",
+  "api_name": "stock_lhb_yyb_detail_em",
+  "description": "东方财富网-数据中心-龙虎榜单-营业部历史交易明细-营业部交易明细",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 19
+}

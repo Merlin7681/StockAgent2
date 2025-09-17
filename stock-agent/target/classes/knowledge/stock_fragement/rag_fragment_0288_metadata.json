@@ -1,0 +1,10 @@
+{
+  "fragment_id": 288,
+  "category": "大宗交易 > 每日明细",
+  "api_name": "stock_dzjy_mrmx",
+  "description": "东方财富网-数据中心-大宗交易-每日明细",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 3,
+  "output_parameters_count": 43
+}

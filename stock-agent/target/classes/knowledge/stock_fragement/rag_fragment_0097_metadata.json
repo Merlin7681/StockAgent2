@@ -1,0 +1,10 @@
+{
+  "fragment_id": 97,
+  "category": "沪深港通持股 > 沪深港通分时数据",
+  "api_name": "stock_hsgt_fund_min_em",
+  "description": "东方财富-数据中心-沪深港通-市场概括-分时数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 11
+}

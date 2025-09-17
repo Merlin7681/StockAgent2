@@ -1,0 +1,10 @@
+{
+  "fragment_id": 167,
+  "category": "基本面数据 > 财务报表-东财-已退市股票 > 现金流量表-按报告期",
+  "api_name": "stock_cash_flow_sheet_by_report_delisted_em",
+  "description": "东方财富-股票-财务分析-现金流量表-已退市股票-按报告期",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 1
+}

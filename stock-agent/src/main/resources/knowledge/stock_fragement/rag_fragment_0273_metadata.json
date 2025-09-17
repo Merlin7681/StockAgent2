@@ -1,0 +1,10 @@
+{
+  "fragment_id": 273,
+  "category": "基本面数据 > 营业部详情数据-东财 > 龙虎榜-营业上榜统计",
+  "api_name": "stock_lhb_yytj_sina",
+  "description": "新浪财经-龙虎榜-营业上榜统计",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 7
+}

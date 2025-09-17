@@ -1,0 +1,10 @@
+{
+  "fragment_id": 237,
+  "category": "基本面数据 > 美港目标价",
+  "api_name": "stock_price_js",
+  "description": "美港电讯-美港目标价数据",
+  "has_input_parameters": true,
+  "has_output_parameters": true,
+  "input_parameters_count": 1,
+  "output_parameters_count": 6
+}
