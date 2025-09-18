@@ -5,17 +5,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.merlin.langchain.utility.JsonParserUtil;
 import dev.langchain4j.agent.tool.P;
 import dev.langchain4j.agent.tool.Tool;
-import dev.langchain4j.data.segment.TextSegment;
-import dev.langchain4j.data.document.Document;
-import dev.langchain4j.data.document.DocumentSplitter;
-import dev.langchain4j.data.document.loader.FileSystemDocumentLoader;
-import dev.langchain4j.data.document.splitter.DocumentByParagraphSplitter;
-import dev.langchain4j.data.document.splitter.DocumentSplitters;
-import dev.langchain4j.data.embedding.Embedding;
-import dev.langchain4j.data.segment.TextSegment;
-import dev.langchain4j.model.embedding.EmbeddingModel;
-import dev.langchain4j.model.output.Response;
-import dev.langchain4j.store.embedding.*;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
@@ -51,17 +40,17 @@ public class AkhareTools extends AkShareCommon {
      * @param params 包含API元数据和文本内容的文本片段，用于进一步处理
      * @return 处理结果字符串
      */
-    @Tool(name = "unified_api", value = "根据用户提供的信息，获取接口英文名称和参数，并返回特定的股票数据")
-    public String unifiedInterface(@P(value = "info") String info, @P(value = "params") String[] params) {
-        AkhareTools.log.debug("开始执行 unifiedInterface: \n info:{}\n params: {}"
-                , info, java.util.Arrays.toString(params));
+    @Tool(name = "unified_api", value = "根据用户提供的信息，获取接口英文名称和参数（形如key=value），并返回特定的股票数据")
+    public String unifiedInterface(@P(value = "api_name") String api_name, @P(value = "params") String[] params) {
+        AkhareTools.log.debug("开始执行 unifiedInterface: \n api_name:{}\n params: {}"
+                , api_name, java.util.Arrays.toString(params));
 
         // 如果info中包含中文字符，则返回接口方法分析错误 并返回
-        if (info.matches(".*[\u4e00-\u9fa5]+.*")) {
+        if (api_name.matches(".*[\u4e00-\u9fa5]+.*")) {
             return "接口方法分析错误:接口方法解析错误";
         }
 
-        String curUrl = info;
+        String curUrl = api_name;
         if (params != null && params.length > 0) {
             AkhareTools.log.debug("开始执行 unifiedInterface: params != null && params.length > 0");
             curUrl = curUrl + "?" + params[0];
@@ -70,6 +59,9 @@ public class AkhareTools extends AkShareCommon {
         String result  = this.getAkShareMethod(curUrl);
         log.debug("开始执行 unifiedInterface: result:-{}-", result);
 
+        if (result == null || result.isEmpty() || result.contains("Internal Server Error")) {
+            return "接口返回错误:请检查远程服务及URL地址是否正确";
+        }
         try {
             // 判断是否是json数组
             if(JsonParserUtil.isJsonArray(result)) {

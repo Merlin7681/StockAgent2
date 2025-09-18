@@ -33,7 +33,7 @@ public class StockAgentConfig {
     public ChatMemoryProvider chatMemoryProviderStock() {
         return memoryId -> MessageWindowChatMemory.builder()
                 .id(memoryId)
-                .maxMessages(3) // 最长记忆
+                .maxMessages(20) // 最长记忆
                 .chatMemoryStore(mongoChatMemoryStore)
                 .build();
     }
