@@ -1,6 +1,8 @@
 package com.merlin.langchain.tools;
 
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.merlin.langchain.utility.JsonParserUtil;
 import dev.langchain4j.agent.tool.P;
 import dev.langchain4j.agent.tool.Tool;
 import dev.langchain4j.data.segment.TextSegment;
@@ -66,13 +68,25 @@ public class AkhareTools extends AkShareCommon {
         }
         AkhareTools.log.debug("开始执行 unifiedInterface: curUrl:-{}-", curUrl);
         String result  = this.getAkShareMethod(curUrl);
+        log.debug("开始执行 unifiedInterface: result:-{}-", result);
 
         try {
-            // WARN：将result转为json对象，并只保留前20个数值
-            JSONObject jsonObject = JSONObject.parseObject(result);
-            jsonObject.put("result", jsonObject.getJSONArray("result").subList(0, Math.min(jsonObject.getJSONArray("result").size(), 20)));
-            AkhareTools.log.debug("开始执行 unifiedInterface: Over!");
-            return jsonObject.toJSONString();
+            // 判断是否是json数组
+            if(JsonParserUtil.isJsonArray(result)) {
+                JSONArray jsonArray = JSONArray.parseArray(result);
+                // 获取前20个元素，如果元素数量不足20个，就取全部
+                JSONArray subArray = new JSONArray(jsonArray.subList(0, Math.min(jsonArray.size(), 20)));
+                String tmp = subArray.toJSONString();
+                AkhareTools.log.debug("JSONArray Result:{}-", tmp);
+                return tmp;
+            } else {
+                // WARN：将result转为json对象，并只保留前20个数值
+                JSONObject jsonObject = JSONObject.parseObject(result);
+                jsonObject.put("result", jsonObject.getJSONArray("result").subList(0, Math.min(jsonObject.getJSONArray("result").size(), 20)));
+                String tmp = jsonObject.toJSONString();
+                AkhareTools.log.debug("JSONObject Result:{}-", tmp);
+                return tmp;
+            }
         } catch(Exception e) {
             log.error("解析 unifiedInterface 返回结果时发生异常: ", e);
             return result.substring(0, Math.min(result.length(), 100));

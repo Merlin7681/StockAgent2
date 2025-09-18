@@ -129,6 +129,27 @@ mvn compile -X
 mvn package -X
 ~~~
 
+### OpenAI Demo模型限制
+无API key前提下，每次访问OpenAI API（仅gpt-4o-mini免费可用），最多可以消耗5000个token。
+~~~
+# http://langchain4j.dev/demo/openai/v1
+# gpt-4o-mini
+Maximum number of tokens per request for demonstration purposes is 5000. If you wish to use more, please use your own OpenAI API key.
+~~~
+
+### Ollama 模型
+~~~shell
+# 检查 Ollama 是否运行
+ollama list
+# List running models
+ollama ps
+
+# 如果没有运行，启动 Ollama 服务
+ollama serve
+# 或者在后台运行
+ollama serve &
+~~~
+
 
 ## 参考资料
 - [Atlas Vector Search与 LangChain4j 集成](https://www.mongodb.com/zh-cn/docs/atlas/ai-integrations/langchain4j/)
