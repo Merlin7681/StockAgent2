@@ -12,3 +12,5 @@
 /Users/dora/Downloads/Moses2025/StockAgent2/stock-agent/src/main/java/com/merlin/langchain/store/MongoChatMemoryStore.java
 /Users/dora/Downloads/Moses2025/StockAgent2/stock-agent/src/main/java/com/merlin/langchain/tools/AkShareCommon.java
 /Users/dora/Downloads/Moses2025/StockAgent2/stock-agent/src/main/java/com/merlin/langchain/tools/AkhareTools.java
+/Users/dora/Downloads/Moses2025/StockAgent2/stock-agent/src/main/java/com/merlin/langchain/tools/RAGTool.java
+/Users/dora/Downloads/Moses2025/StockAgent2/stock-agent/src/main/java/com/merlin/langchain/utility/UrlChineseEncoder.java

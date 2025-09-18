@@ -1,5 +1,6 @@
 package com.merlin.langchain.tools;
 
+import com.merlin.langchain.utility.UrlChineseEncoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,7 +29,7 @@ public class AkShareCommon {
             // 构建请求参数
             String encodedStockCode = URLEncoder.encode(stockCode, StandardCharsets.UTF_8.toString());
             String suffixUrl = method + "?symbol=" + encodedStockCode;
-            result = getAkShaareMethod(suffixUrl);
+            result = getAkShareMethod(suffixUrl);
 
         } catch (Exception e) {
             log.error("Exception occurred in getAkShaareMethod", e);
@@ -39,12 +40,15 @@ public class AkShareCommon {
         return result;
     }
 
-    protected String getAkShaareMethod(String suffixUrl) {
+    protected String getAkShareMethod(String suffixUrl) {
         String result = "";
         try {
             // 构建请求参数
             String requestUrl = AKTOOLS_API_BASE_URL + suffixUrl;
-            log.info("requestUrl: " + requestUrl);
+            log.debug("requestUrl(raw):{}-", requestUrl);
+            // 对url进行编码，避免因包含中文字符而导致请求错误
+            requestUrl = UrlChineseEncoder.encodeChineseInUrl(requestUrl);
+            log.debug("requestUrl(encoded):{}-", requestUrl);
 
             // 创建 HTTP 连接
             URL url = new URL(requestUrl);

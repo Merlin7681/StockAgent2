@@ -16,8 +16,13 @@
 
 
 ## 智能体
-### RAG与Tools联动
-向量数据库中已经添加了api相关信息（参考src/main/resources/knowledge/stock_fragement内文件和FragmentEmbeddingTest.testUploadFragementKnowledge3()方法），请问AkhareTools.unifiedInterface()方法的@Tool.value应如何写提示词，才可以把向量数据库中找到的TesxtSegment信息当作参数传给AkhareTools.unifiedInterface()方法？
+### 问题：MCP如何RAG和Tools联动？
+请问通过 langchain for Java 怎么实现一个 MCP 让它与rag的知识库和外部工具AKTools之间进行联动呢？
+提示：AKTools is a package of HTTP API for AKShare!
+1、知识库RAG准备：已经向量数据库中已经添加了AKShare API信息（按api接口进行了分片，并添加了metadata）；
+2、外部工具准备：本地已经部署了AKTools，可以通过http://127.0.0.1:8080/api/public/加URL后缀（方法名和参数）构造URL并访问 ，如http://127.0.0.1:8080/api/public/stock_profit_sheet_by_quarterly_em?symbol=SH600000；
+3、langchain4j @Tools：已经通过@Tools注解，注册了一个通用工具，只要依据不同API接口输入URL后缀，即可构造出完整URL并访问；
+现在请提供一个MCP，让MCP与 rag 和 AKTools进行联动，并给出一个完整的测试用例。
 
 ## 注意事项
 ### OpenAI Demo模型限制    

@@ -1,3 +1,12 @@
+# Stack Agent files
+/stock-agent/target/
+/xiaomi-agent/node_modules/
+/xiaomi-agent/.vscode/
+/stock-agent/.mvn/
+.idea
+.DS_Store
+.vscode
+
 # Compiled class file
 *.class
 
@@ -22,3 +31,34 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+StockAgent2.iml
+/.vscode/
+/.idea/
+/xiaohei-ui/.vscode/
+/stock-agent/target/

@@ -40,6 +40,7 @@ http://127.0.0.1:8080/api/public/stock_profit_sheet_by_quarterly_em?symbol=SH600
 http://localhost:8080/api/public/stock_individual_info_em?symbol=603676
 
 http://localhost:8080/api/public/stock_financial_abstract?symbol=603676
+http://127.0.0.1:8080/api/public/stock_szse_sector_summary?symbol=当月
 
 ## 参考资料
 - [Atlas Vector Search与 LangChain4j 集成](https://www.mongodb.com/zh-cn/docs/atlas/ai-integrations/langchain4j/)
