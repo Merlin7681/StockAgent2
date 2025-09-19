@@ -24,8 +24,34 @@ AI智能体不该追求全自动，而要做人类掌控的辅助工具。你发
 **部署架构**
 ![部署架构示意图](images/overview.png)
 
+### 启动智能体
+
+**准备：**
+
+- ollama启动；
+
+- docker服务启动；
+
+- 可以连接互联网；
+
+  
+
+**启动前后端系统：**
+
+~~~
+## 进入项目根目录
+# 启动前端（q+enter退出）
+. ./startup-frontend.sh
+# 启动后端（exit+enter退出）
+. ./startup-backend.sh
+~~~
+
+**浏览器访问：**http://localhost:5173/
+
+
 
 ## 外部工具
+
 ### AkTools
 - 构建参考：项目KnowledgeBase/Common/stock/aktools
 - 启动参考：startup-backend.sh
