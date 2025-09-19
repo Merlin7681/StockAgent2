@@ -36,6 +36,11 @@ http://127.0.0.1:8080/api/public/stock_szse_sector_summary?symbol=当月
 
 ## Prompt
 提示模板（Prompt Templates）是用于生成语言模型提示的预定义配方，可以包括指令、少样本示例和特定上下文。
+通过request 和 response output样例，可以看清system prompt、user prompt、tools、content retrieval是如何起作用的。
+
+Content Retrieval和Tools配合：用户请求一次，Agent会与LLM交互两次
+- 第一次，Agent将向系统和用户提示词、量检索数据、工具和用户输入 发给LLM；
+- 第二次，Agent将向系统和用户提示词、工具执行结果（如有）、工具和用户输入 发给LLM；
 
 ### Demo: Step1
 #### Request
@@ -48,6 +53,7 @@ HTTP request:
 ~~~
 
 Body Content:
+注意：user“你好”是由前端自动发的消息，sendRequest('你好')，，未在消息列表中显示（后端返回时也没有）。
 ~~~json
 {
   "model" : "gpt-4o-mini",
@@ -272,6 +278,7 @@ HTTP request:
 ~~~
 
 Body Content:
+注意：由于记忆丢失，没有带user message！
 ~~~json
 {
   "model" : "gpt-4o-mini",
@@ -476,7 +483,7 @@ HTTP response:
 ~~~
 
 Body Content:
-~~~
+~~~json
 {
   "id": "chatcmpl-CHHSvdd2YJVWp1L0c0XJJgNpFtZzL",
   "created": 1758234749,
