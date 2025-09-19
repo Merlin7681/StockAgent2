@@ -3,6 +3,8 @@ package com.merlin.langchain.tools;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.merlin.langchain.utility.JsonParserUtil;
+import com.merlin.langchain.utility.RAGTool;
+import com.merlin.langchain.utility.WebTools;
 import dev.langchain4j.agent.tool.P;
 import dev.langchain4j.agent.tool.Tool;
 import org.slf4j.LoggerFactory;
@@ -12,6 +14,11 @@ import org.slf4j.Logger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * Agent 工具类
+ * NOTE：只有这个类（及里面的@Tools）注册到了AI Service中，才会被AI Service调用
+ * WARNING：不要注册过多的Tools，否则会耗尽AI Service的资源token
+ */
 @Component
 public class AkhareTools extends AkShareCommon {
     private static final Logger log = LoggerFactory.getLogger(AkhareTools.class);
@@ -84,6 +91,15 @@ public class AkhareTools extends AkShareCommon {
             return result.substring(0, Math.min(result.length(), 100));
         }
 
+    }
+
+    @Autowired
+    private WebTools webTools;
+
+    @Tool(value = "获取指定URL的网页内容，参数为完整的URL地址")
+    public String fetchWebContent(@P(value = "url") String url) {
+        log.debug("fetchWebContent:{}-", url);
+        return webTools.fetchWebContent(url);
     }
 
 }

@@ -1,7 +1,6 @@
-package com.merlin.langchain.tools;
+package com.merlin.langchain.utility;
 
 import dev.langchain4j.agent.tool.P;
-import dev.langchain4j.agent.tool.Tool;
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.model.embedding.EmbeddingModel;
@@ -14,9 +13,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
-// 定义RAG检索工具
+/**
+ * 此类没有用 到
+ */
 @Component
 public class RAGTool {
     private static Logger log = LoggerFactory.getLogger(RAGTool.class);
